@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Mmq_ui" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="cus_button_large">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_marginTop">18.7dp</item>
+        <item name="android:layout_marginLeft">62dp</item>
+        <item name="android:layout_marginRight">62dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="cus_button_small">
+<!--        <item name="android:background">@drawable/custom_button_rec</item>-->
+        <item name="backgroundTint">@color/or</item>
+    </style>
+
+    <style name="cus_button_large_rec">
+        <item name="android:background">@drawable/custom_button_rec</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+</resources>

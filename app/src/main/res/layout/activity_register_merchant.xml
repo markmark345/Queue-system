@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterMerchant">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:text="@string/title_regis"
+                android:textColor="#E8E0E0"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/regis_store_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:hint="@string/regis_store_name"
+                android:inputType="textPersonName"
+                android:textColor="#E8E0E0"
+                android:textColorHint="#E8E0E0" />
+
+            <EditText
+                android:id="@+id/regis_store_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/regis_store_username"
+                android:inputType="textPersonName"
+                android:textColor="#E8E0E0"
+                android:textColorHint="#E8E0E0" />
+
+            <EditText
+                android:id="@+id/regis_store_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/regis_store_password"
+                android:inputType="textPassword"
+                android:textColor="#E8E0E0"
+                android:textColorHint="#E8E0E0" />
+
+            <EditText
+                android:id="@+id/regis_store_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/regis_store_phone"
+                android:inputType="phone"
+                android:textColor="#E8E0E0"
+                android:textColorHint="#E8E0E0" />
+
+            <EditText
+                android:id="@+id/regis_store_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="@string/regis_store_email"
+                android:inputType="textEmailAddress"
+                android:textColor="#E8E0E0"
+                android:textColorHint="#E8E0E0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/regis_store_type_table"
+                android:textColor="#E8E0E0" />
+
+            <CheckBox
+                android:id="@+id/regis_store_type_table_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/regis_store_type_table_a"
+                android:textColor="#E8E0E0" />
+
+            <CheckBox
+                android:id="@+id/regis_store_type_table_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/regis_store_type_table_b"
+                android:textColor="#E8E0E0" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_register_merchant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:onClick="saveMerchant"
+                    android:text="@string/button_register_merchant"
+                    style="@style/cus_button_large_rec"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_user"
+        android:title="บัญชีผู้ใช้"
+        android:icon="@drawable/ic_baseline_account_box_24"/>
+    <item android:id="@+id/nav_reserve"
+        android:title="จองโต๊ะ"
+        android:icon="@drawable/ic_baseline_food_bank_24"/>
+    <item android:id="@+id/nav_reserve_status"
+        android:title="สถานะการจอง"
+        android:icon="@drawable/ic_baseline_access_alarm_24"/>
+</menu>

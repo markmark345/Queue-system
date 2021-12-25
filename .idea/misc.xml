@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable-v24/blue_border_rounded_cornwe.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable-v24/blue_fill__rounded_color.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable-v24/cursor_color.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable/bg_gra.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable/button11.xml" value="0.3685185185185185" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable/custom_button.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable/custom_button_rec.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable/ic_baseline_access_alarm_24.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable/ic_baseline_food_bank_24.xml" value="0.24427083333333333" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/drawable/item_selector.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/activity_main.xml" value="0.359375" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/activity_merchant_main.xml" value="0.359375" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/activity_merchant_queue.xml" value="0.359375" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/activity_new_menu.xml" value="0.25" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/activity_register_customer.xml" value="0.25" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/activity_register_merchant.xml" value="0.25" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/activity_reserve_queue.xml" value="0.25" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/card_customer_booking.xml" value="0.359375" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/cardview_merchant.xml" value="0.359375" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/fragment_merchant_information.xml" value="0.25" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/fragment_merchant_main.xml" value="0.359375" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/fragment_reservation_fragment.xml" value="0.359375" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/fragment_reserve_fragment.xml" value="0.359375" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/fragment_submit_queue.xml" value="0.25" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/fragment_user_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/mark/AndroidStudioProjects/New/Final_project_cs361/app/src/main/res/layout/ssss.xml" value="0.359375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Mark My Queue</string>
+
+    <!--    header page     -->
+    <string name="title_regis">ลูกค้าทำการสมัครสมาชิก</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="merchant_submit_queue">ยืนยันคิว</string>
+
+    <!--    ปุ่มกดในหน้าต่าง ๆ     -->
+    <string name="button_lan_A">กดเรียกคิวประเภท A</string>
+    <string name="button_lan_B">กดเรียกคิวประเภท B</string>
+    <string name="button_customer">เข้าสู่ระบบลูกค้า</string>
+    <string name="button_merchant">เข้าสู่ระบบร้านอาหาร</string>
+    <string name="button_register_merchant">ยืนยัน</string>
+    <string name="button_register_customer">ยืนยัน</string>
+
+    <!--    ร้านค้า log in  -->
+    <string name="log_merchant_user">User name</string>
+    <string name="log_merchant_Password">Password</string>
+
+    <!--    ข้อมูลที่ลูกค้าต้องกรอกตอนสมัคร   -->
+    <string name="regis_cus_name">ชื่อ</string>
+    <string name="regis_cus_phone">เบอร์โทรศัพท์</string>
+    <string name="regis_cus_email">อีเมล</string>
+
+    <!--    ข้อมูลที่ร้านค้าต้องกรอกตอนสมัคร   -->
+    <string name="regis_store_name">ชื่อร้านค้า</string>
+    <string name="regis_store_phone">เบอร์โทรศัพท์ที่ติดต่อได้</string>
+    <string name="regis_store_email">อีเมล</string>
+    <string name="regis_store_username">ชื่อผู้ใช้</string>
+    <string name="regis_store_password">รหัสเข้าสู่ระบบ</string>
+    <string name="regis_store_type_table">* เลือกประเภทจำนวนที่นั่งที่ร้านมี</string>
+    <string name="regis_store_type_table_a">ประเภทโต็ะ 1 - 2 ที่นั่ง</string>
+    <string name="regis_store_type_table_b">ประเภทโต็ะมากกว่า 3 ที่นั่ง</string>
+    <string name="regis_store_type_table_c">ประเภทโต็ะ 5 - 6 ที่นั่ง</string>
+    <string name="regis_store_type_table_d">ประเภทโต็ะ 7 - 8 ที่นั่ง</string>
+    <string name="regis_store_type_table_e">ประเภทโต็ะมากกว่า 8 ที่นั่ง</string>
+
+    <!--    หน้า home merchant-->
+    <string name="card_cus_name">ชื่อ</string>
+    <string name="card_cus_phone">เบอร์โทรศัพท์</string>
+    <string name="card_cus_date">วันที่</string>
+    <string name="card_cus_time">เวลา</string>
+    <string name="card_cus_num_seat">จำนวนมี่นั่ง</string>
+    <string name="card_cus_button_submit">ยืนยัน</string>
+    <string name="card_cus_button_cancel">ยกเลิก</string>
+
+
+    <!--หน้า Merchant ยืนยันคิว-->
+    <string name="button_next_queue">แก้ไขรหัสผ่าน</string>
+
+    <!--Fragments ส่วน User-->
+    <string name="edit_password">แก้ไขรหัสผ่าน</string>
+    <string name="edit_tel_num">แก้ไขเบอร์โทร</string>
+    <string name="user_username">สวัสดีคุณ:</string>
+    <string name="user_email">อีเมล:</string>
+    <string name="user_tel_num">เบอร์โทร:</string>
+
+    <!--    หน้า user dialog    -->
+    <string name="dialog_header">จองคิว</string>
+    <string name="dialog_number">กรุณาใส่จำนวนที่นั่ง</string>
+    <string name="dialog_submit">จองเลย</string>
+
+    <!--Fragments ส่วนการจอง-->
+    <string name="search_intro">ทำการค้นหาร้านอาหารเลย!</string>
+
+    <!--Fragments ส่วนสถานะการจอง-->
+    <string name="reserve_status">สถานะการจองของคุณ</string>
+    <string name="reserve_name_merchant">ชื่อร้าน</string>
+    <string name="reserve_num_queue">หมายเลขคิว</string>
+
+    <!--    หน้าจองคิว  -->
+    <string name="reservation_title">จองคิว</string>
+    <string name="reservation_button">จอง</string>
+
+
+    <string name="num_queue">หมายเลขคิว</string>
+
+    <string name="icon_hour">&#xf254;</string>
+
+
+    <!--หน้าแก้ไขข้อมูลร้าน -->
+    <string name="restaurant_intro">ตรวจสอบหรือแก้ไขร้านอาหาร</string>
+    <string name="restaurant_name">ชื่อร้าน:</string>
+    <string name="restaurant_email">อีเมลร้าน:</string>
+    <string name="restaurant_tel">เบอร์โทรร้าน:</string>
+    <string name="restaurant_logout">ออกจากระบบ</string>
+    <string name="restaurant_reset">รีเซตคิว</string>
+
+    <!--    Test message    -->
+    <string name="default_notification_channel_id" translatable="false">fcm_high_channel</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        FCM registration token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">FCM registration Token: %s</string>
+
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">รับคิวลูกค้า</string>
+
+</resources>
